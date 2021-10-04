@@ -12,20 +12,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  double calcularDesconto(double initValue, double discount, int percentual) {
-    if (discount <= 0) {
-      throw ArgumentError("O desconto deve ser maior que zero!");
-    }
-    if (initValue != 0) {
-      throw ArgumentError("O valor inicial deve ser maior que zero!");
-    }
-    if (percentual != 0) {
-      return initValue - (initValue * discount / 100);
-    }
-
-    return initValue - discount;
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,4 +22,18 @@ class _MyAppState extends State<MyApp> {
       body: Container(),
     );
   }
+}
+
+double calcularDesconto(double initValue, double discount, int percentual) {
+  if (discount <= 0) {
+    throw ArgumentError("O desconto deve ser maior que zero!");
+  }
+  if (initValue <= 0) {
+    throw ArgumentError("O valor inicial deve ser maior que zero!");
+  }
+  if (percentual != 0) {
+    return initValue - (initValue * discount / 100);
+  }
+
+  return initValue - discount;
 }
