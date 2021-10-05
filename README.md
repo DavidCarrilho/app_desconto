@@ -3,8 +3,8 @@
 Uma aplicação que calcula descontos.
 
 <p float="left">
-  <img src="screenshot/Screenshot_1633232092.png" width="200" />
-  <img src="screenshot/Screenshot_1633232099.png" width="200" />
+  <img src="https://github.com/DavidCarrilho/app_desconto/blob/85024982feb08be5a9c6be98cc47d00aeb598377/screenshot/Screenshot_1633405559.png" width="200" />
+  <img src="https://github.com/DavidCarrilho/app_desconto/blob/85024982feb08be5a9c6be98cc47d00aeb598377/screenshot/Screenshot_1633405486.png" width="200" />
 </p>
 
 ## Getting Started
