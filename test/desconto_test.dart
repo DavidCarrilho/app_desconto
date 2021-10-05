@@ -18,4 +18,11 @@ void main() {
     // assert
     expect(calcularDesconto(valorSemDesconto, desconto, 1), valorComDesconto);
   });
+  test('Deve dar erro ao calcula valor com desconto negativo ou zero', () {
+    expect(() => calcularDesconto(valorSemDesconto, -1, 1),
+        throwsA(isA<ArgumentError>()));
+
+    expect(() => calcularDesconto(valorSemDesconto, 0, 0),
+        throwsA(isA<ArgumentError>()));
+  });
 }
