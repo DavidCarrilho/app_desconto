@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Desconto',
+      title: 'App Desconto',
       home: HomePage(),
     ));
 
