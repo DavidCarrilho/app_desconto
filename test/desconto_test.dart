@@ -11,4 +11,11 @@ void main() {
     // assert
     expect(calcularDesconto(valorSemDesconto, desconto, 0), valorComDesconto);
   });
+  test('Deve calcular o desconto corretamente utilizando porcentagem', () {
+    // arrange
+    var desconto = 10.0;
+    var valorComDesconto = 135.0;
+    // assert
+    expect(calcularDesconto(valorSemDesconto, desconto, 1), valorComDesconto);
+  });
 }
