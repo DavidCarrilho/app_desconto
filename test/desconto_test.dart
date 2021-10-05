@@ -1,5 +1,5 @@
+import 'package:app_desconto/pages/home_page.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:app_desconto/main.dart';
 
 void main() {
   const valorSemDesconto = 150.0;
