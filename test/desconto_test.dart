@@ -28,4 +28,8 @@ void main() {
   test('Deve dar erro ao calcular desconto com valor inicial zero', () {
     expect(() => calcularDesconto(0, 15, 0), throwsA(isA<ArgumentError>()));
   });
+
+  test('Deve dar erro ao calcular com valor inicial negativo', () {
+    expect(() => calcularDesconto(-1, 15, 0), throwsA(isA<ArgumentError>()));
+  });
 }
