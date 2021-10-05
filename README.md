@@ -1,8 +1,15 @@
 # app_desconto
 
-A new Flutter project.
+Uma aplicação que calcula descontos.
+
+<p float="left">
+  <img src="screenshot/Screenshot_1633232092.png" width="200" />
+  <img src="screenshot/Screenshot_1633232099.png" width="200" />
+</p>
 
 ## Getting Started
+
+A new Flutter project made in 1.22.5 version
 
 This project is a starting point for a Flutter application.
 
